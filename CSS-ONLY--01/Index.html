@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="hero">
-      <h1 class="hero_title">GROW YOUR MINDSET TO GROW ON YOUR LIFE.</h1>
+      <h1 class="hero_title">BRODERN YOUR MINDSET TO GROW .</h1>
       <p class="hero_description">
         Discover a world of learning possibilities
         <span class="hero_hilight">concisely</span>
@@ -57,6 +57,13 @@
           </p>
         </div>
       </div>
+      <div class="features_image-container">
+        <img
+          src="./pictures/features.jpg"
+          alt="Feature Image"
+          class="feature_image"
+        />
+      </div>
     </section>
 
     <section class="cta">
@@ -93,16 +100,48 @@
 
     <section class="programs">
       <h2>
-        Lorem ipsum dolor sit
-        , vitae repellendus ratione nulla
-        velit minus at aliquam fuga?
+        Lorem ipsum dolor sit , vitae repellendus ratione nulla velit minus at
+        aliquam fuga?
       </h2>
       <div class="programs_cards">
         <div class="programs_card"></div>
         <div class="programs_card"></div>
         <div class="programs_card"></div>
       </div>
+    </section>
 
+    <section class="element">
+      <div class="element_left">
+        <div class="element_placeholder"></div>
+      </div>
+      <div class="element-right">
+        <h2>Sign Up Now!</h2>
+        <p class="element_subtitle">Fill out the form below to sign up.</p>
+
+        <form class="element_form">
+          <h3>Your Interests:</h3>
+          <ul class="element_list">
+            <li class="element_list-item">Backend Development</li>
+            <li class="element_list-item">Frontend Development</li>
+            <li class="element_list-item">Data Engineering</li>
+          </ul>
+          <div class="element_form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username" />
+          </div>
+          <div class="element_form-group">
+            <label for="course">Select Course:</label>
+            <select id="course">
+              <option value="">Choose a course</option>
+              <option value="java">Complete java programming</option>
+              <option value="react">React js with Redux</option>
+              <option value="figma">ui/ux</option>
+            </select>
+          </div>
+
+          <button type="submit" class="element_button">submit form</button>
+        </form>
+      </div>
     </section>
   </body>
 </html>
