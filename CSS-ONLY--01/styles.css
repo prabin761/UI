@@ -128,10 +128,10 @@ button{
 }
 
 .element_left{
-    flex: 1;
+    flex-basis: 1;
 }
 .element_right{
-    flex: 1;
+    flex-basis: 1;
 }
 .element_subtitle{
     color: #5d5d5d;
