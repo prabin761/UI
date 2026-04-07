@@ -16,11 +16,11 @@ section {
 section h2 {
   margin-bottom: 2rem;
 }
-img {
+/* img {
   display: block;
   width: 100px;
   height: 100px;
-}
+} */
 
 /* Header Navigation using flex-box */
 .header {
@@ -57,4 +57,59 @@ img {
 
 .header-links a:hover{
     color: #9c9c9c;
+}
+
+
+/* featured Section */
+.featured{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    height: 600px;
+}
+.featured-image{
+    flex-basis: 50%;
+    height: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.featured-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.featured-content{
+    flex-basis: 50%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.featured-more{
+    color: #fff;
+    background: #1d1d1d;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+}
+.featured-more:hover{
+    background: #414141;
+    color: #d9d8d8;
+    cursor: pointer;
+}
+.featured-footer{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem; 
+}
+
+.featured-content p{
+    color: #4d4d4d;
 }
